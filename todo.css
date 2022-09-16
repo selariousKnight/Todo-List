@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.banner{
+  font-family: fira Code;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  
+min-height: 100vh;
+background-size: cover;
+ }
+ .header{
+  text-align: center;
+  font-family: fira Code;
+  color: rgb(62, 17, 184) ;
+  padding: 20px;
+ }
+ h2{
+  color: rgb(183, 57, 131);
+  margin-left: 20px;
+  margin-bottom: 10px;
+ }
+ .inputElement{
+  border-radius: 5px;
+  width: 80%;
+  border-style: none;
+  padding: 15px;
+  margin-left: 20px;
+
+ }
+ .button{
+  margin-left: 20px;
+  color: white;
+  margin-top: 20px;
+  border-style: none;
+  width: 10%;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: blue;
+  margin-bottom: 20px;
+ }
+ .button:hover{
+  background-color: green;
+ }
+ .items-container{
+  margin-top: 20px;
+ }
+ .todo-Item-container{
+  width: 90%;
+  background-color: transparent;
+}
+ul {
+  list-style-type: none;
+}
+.todoContainer{
+  width: 90%;
+  display: flex;
+  margin-left: 20px;
+}
+.checkbox{
+  width: 40px;
+  height: 25px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.label-Continer{
+  border-radius: 8px;
+border-style: solid;
+  width: 100%;
+  padding: 10px;
+  color:rgb(17, 5, 85);
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delete-icon{
+  color: red;
+}
+.checked{
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
